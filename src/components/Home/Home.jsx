@@ -16,13 +16,18 @@ const Home = () => {
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 right-0 z-10">
-        <Navbar page={"home"}/>
+        <Navbar page={"home"} />
       </div>
       <div className="relative w-full h-screen bg-primaryBackground ">
         {/* <video className="absolute top-0 left-0 w-full h-full object-cover opacity-70" autoPlay loop muted playsInline playbackRate={10}>
           <source src={VideoBg} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
+        <video className="absolute top-0 left-0 w-full h-full object-cover opacity-70" autoPlay loop muted playsInline playbackRate={10}>
+          <source src="https://drive.google.com/file/d/1OeQnRhkaywvp6X95cSp5eRj5d0INz2-9/view?usp=sharing" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-linecolor">
           {/* <div className='flex flex-row gap-x-20'> */}
           <div className='pt-24 flex flex-col gap-y-10'>
